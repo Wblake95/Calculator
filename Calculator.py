@@ -27,10 +27,10 @@ elif mode == "*":
 elif mode == "/":
     print(x/y)
 # 'Division(float) of number'
-# this just gets ride of teh decimal point
+# this just gets ride of the decimal point
 elif mode == "//":
     print(x//y)
 # modulo of both numbers
-# the gets teh remainder
+# the gets the remainder
 elif mode == "%":
     print(x%y)
