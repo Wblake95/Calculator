@@ -1,8 +1,3 @@
-"""
-Apparently, this is how you do a multiline comment in python.
-I wanted to give it a shot and thought I could try out the whole branching thing as well.
-learned from geeksforgeeks.org
-"""
 '''
 new stuff from geeksforgeeks.org
 this is a 'Division(float) of number' whatever that means
@@ -11,8 +6,8 @@ I will be testing this today
 '''
 print("Choose first int:")
 x = int(input())
-print("Choose operator (+,-,*,/,//,%):")
-print("/ = with decimal, // = without decimal. % = ramainder")
+print("Choose operator (+,-,*,/,//,%,//%):")
+print("/ = with decimal, // = without decimal, % = ramainder, //% = both // and % result")
 mode = input()
 print("Choose second int:")
 y = int(input())
@@ -34,3 +29,8 @@ elif mode == "//":
 # the gets the remainder
 elif mode == "%":
     print(x%y)
+# combine div2 and modulo
+elif mode == '//%' or '// %' or '%//' or '% //':
+    print(x//y, "R",x%y)
+# I can't tell the difference between single quote and double quote
+# comma is important to seperate action and text
